@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+
+#fundo {
+ 
+background:url("image/green-fluid-background-frame_53876-114482.png");
+background-attachment:fixed;
+background-size:cover;
+}
+
+.login{
+    background-color: #abe264;
+    text-align: center;
+    margin:60px;
+    padding: 30px;
+    max-width: 350px;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+   font-family: 'Courier New', Courier, monospace;
+border-radius: 20px;
+font-size: large;
+box-shadow: 3px 2px 15px 3px rgb(143, 151, 129);
+}
+
+.usuario{
+    display: block;
+    font-size: large;
+
+}
+
+.U{
+    border-radius: 5px;
+    border-style: none;
+    width: 70%;
+    height: 25px;
+    outline: none;
+}
+
+.U:focus{
+    box-shadow: 1px 1px 7px 1px rgb(36, 119, 36);
+    background-color: rgb(232, 250, 218);
+}
+
+.S:focus{
+    box-shadow: 1px 1px 7px 1px rgb(36, 119, 36);
+    background-color: rgb(232, 250, 218);
+}
+
+.U:hover{
+    background-color: rgb(232, 250, 218);
+    box-shadow: 1px 1px 7px 1px rgb(36, 119, 36);
+}
+.S{
+
+    border-radius: 5px;
+    border-style: none;
+    width: 70%;
+    height: 25px;
+    outline: none;
+
+}
+.S:hover{
+    background-color: rgb(232, 250, 218);
+    box-shadow: 1px 1px 7px 1px rgb(36, 119, 36);
+
+}
+.butão{
+    height: 30px;
+    width: 20%;
+    border-style: none;
+    border-radius: 3px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.butão:hover{
+    background-color: #76885e;
+    color: white;
+    display: flexbox;
+    transition-duration: 1s; /*aqui faz um tempo de transição da imagem pra carregar*/
+    cursor:pointer;/*muda para a mãozinha apontando o dedo*/
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(49, 71, 51, 0.7);
+	}
+
+	70% {
+		transform: scale(1.1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
